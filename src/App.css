@@ -1,0 +1,42 @@
+.calcul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;
+height:fit-content;
+width: fit-content;
+margin: 0 auto;
+  border:  2px solid black;
+
+  text-align: center;
+}
+.calcul div  input{
+  font-size: 22px;
+  height: 80px;
+width: 70px;
+
+
+}
+input:nth-child(1){
+width: 97%;
+height: 70px;
+}
+#red {
+  color: white;
+  background-color: red;
+}
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+
+  background-color: black;
+  color: white;
+}
+h1 {
+  color: red;
+}
